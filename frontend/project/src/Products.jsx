@@ -38,7 +38,7 @@ export default function Products() {
 
 <div className='products'>
   
- <Grid container spacing={4} justifyContent="center">
+ <Grid container spacing={9} justifyContent="center">
 
   <Grid item xs={12} sm={6} md={4}>
     <Card sx={{ maxWidth: 345, mx: 'auto' }}>
@@ -54,6 +54,7 @@ export default function Products() {
     </Card>
   </Grid>
 
+ <Grid container spacing={9} justifyContent="center">
   <Grid item xs={12} sm={6} md={4}>
     <Card sx={{ maxWidth: 345, mx: 'auto' }}>
       <CardActionArea>
@@ -63,7 +64,6 @@ export default function Products() {
           <Typography variant="body2" color="text.secondary">
             The AK-47, officially known as the Avtomat Kalashnikova, is an assault rifle that is
              chambered for the 7.62×39mm cartridge. 
-            Developed in the Soviet Union by Russian small-arms designer Mikhail Kalashnikov
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -71,9 +71,9 @@ export default function Products() {
   </Grid>
 
 </Grid>
+</Grid>
 
-
-   <Grid container spacing={4} justifyContent="center">
+   <Grid container spacing={9} justifyContent="center">
 
   <Grid item xs={12} sm={6} md={4}>
     <Card sx={{ maxWidth: 345, mx: 'auto' }}>
@@ -91,6 +91,7 @@ export default function Products() {
     </Card>
   </Grid>
 
+ <Grid container spacing={9} justifyContent="center">
   <Grid item xs={12} sm={6} md={4}>
     <Card sx={{ maxWidth: 345, mx: 'auto' }}>
       <CardActionArea>
@@ -104,6 +105,7 @@ export default function Products() {
         </CardContent>
       </CardActionArea>
     </Card>
+  </Grid>
   </Grid>
 
 </Grid>
